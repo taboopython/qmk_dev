@@ -12,5 +12,5 @@ docker-compose.override.yml
 qmk_firmware/*
 
 # But don't ignore the keymap directory for your keyboard
-!qmk_firmware/keyboards/keychron/k6/keymaps/your_keymap/
+!qmk_firmware/keyboards/keychron/k6/keymaps/my_keymap/
 
