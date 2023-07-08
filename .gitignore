@@ -1,0 +1,13 @@
+# Docker volumes
+qmk_firmware/
+keymaps/
+
+# Docker Compose override file
+docker-compose.override.yml
+
+# Other files and directories that should not be tracked by Git
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store

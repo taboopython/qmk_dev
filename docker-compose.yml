@@ -1,0 +1,7 @@
+version: '3'
+services:
+  qmk:
+    image: qmkfm/qmk_cli
+    volumes:
+      - ./qmk_firmware:/qmk:rw
+      - ./keymaps:/keymaps:rw
