@@ -1,7 +1,3 @@
-# Docker volumes
-qmk_firmware/
-keymaps/
-
 # Docker Compose override file
 docker-compose.override.yml
 
@@ -11,3 +7,10 @@ docker-compose.override.yml
 *.bak
 *.swp
 .DS_Store
+
+# Ignore everything in the QMK firmware directory
+qmk_firmware/*
+
+# But don't ignore the keymap directory for your keyboard
+!qmk_firmware/keyboards/keychron/k6/keymaps/your_keymap/
+
